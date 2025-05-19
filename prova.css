@@ -1,0 +1,157 @@
+:root {
+    --cor-primaria:white;
+    --cor-secundaria:black;
+    --cor-terciaria:red;    	
+}
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 190px;
+    height: 100%;
+    position: relative;
+
+}
+span {
+    border-radius: 5px;
+    position: absolute;
+    fill: var(--cor-primaria);
+    z-index: 1;
+    position: absolute;
+}
+.dezoito {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria) ;
+    border-radius: 3px;
+    bottom: 5px;
+    right: 5px;
+    
+}
+.cherno {
+    display: flex;
+    position: relative;
+
+
+    .dezoito{
+        position: absolute;
+        background-color: var(--cor-secundaria);
+        color: white;
+        border-radius: 10px;
+        bottom: 5px;
+        right: 10px;
+        border: 1px solid var(--cor-secundaria);
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        }
+
+        button {
+            position: absolute;
+            right: 12px;      
+            top: 12px;
+
+           }
+           &:hover {
+            transform: scale(1.1);
+            transition: transform 0.3s;
+           }  
+           
+         
+    
+}
+.rita {
+    display: flex;
+    position: relative;
+
+    .quatorze{
+        position: absolute;
+        background-color: rgb(7, 20, 212);
+        color: white;
+        border-radius: 10px;
+        bottom: 5px;
+        right: 10px;
+        border: 1px solid var(--cor-secundaria);
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        }
+
+        button {
+            position: absolute;  
+            right: 12px;      
+            top: 12px;
+        }
+        &:hover {
+            transform: scale(1.1);
+            transition: transform 0.3s;
+           }  
+    
+        }
+.lastof {
+    display: flex;
+    position: relative;
+    
+
+    .dezesseis {
+        position: absolute;
+        background-color: var(--cor-terciaria);
+        color: white;
+        border-radius: 10px;
+        bottom: 5px;
+        right: 10px;
+        border: 1px solid var(--cor-secundaria);
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        }
+ 
+        button {
+            position: absolute;
+            right: 12px;      
+            top: 12px;
+           } 
+
+           &:hover {
+            transform: scale(1.1);
+            transition: transform 0.3s;
+           }  
+            }
+    
+.novo {
+    background-color: var(--cor-primaria);
+    border-radius: 0px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid var(--cor-secundaria);
+    padding: 5px;
+}
+svg {
+    width: 6px;
+    fill: white;
+}
+button {
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    color: #333;
+    border: 2px solid transparent;  
+    cursor: pointer; 
+    border-radius: 50px;
+    
+    &:hover {
+        border-radius: 35px;
+        background-color: rgb(106, 110, 109);
+    
+
+    }
+}
+.box {
+    display: flex;
+    gap: 60px;
+
+}
+.mae {
+    display: flex;
+    justify-content: space-around;
+
+}
